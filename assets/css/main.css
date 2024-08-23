@@ -24,6 +24,17 @@
     width: 100px; /* Adjust the size as needed */
 }
 
+#loading-screen {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
+
+#loading-screen.hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevent interactions when hidden */
+}
+
+
 
 /* Reset */
 
